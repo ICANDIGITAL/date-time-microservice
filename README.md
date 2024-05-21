@@ -42,7 +42,7 @@ loop Every 1 second
   
 Status: The microservice is fully functional.
 Access:
-The code for this microservice is available on GitHub: https://github.com/ICANDIGITAL/
+The code for this microservice is available on GitHub: [https://github.com/ICANDIGITAL/](https://github.com/ICANDIGITAL/date-time-microservice/tree/master)
 Your teammate can either run it locally or you can provide a hosted instance if they prefer.
 Contingency:
 If your teammate cannot access your microservice:
