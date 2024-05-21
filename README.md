@@ -40,7 +40,7 @@ Teammates can either run it locally or you can provide a hosted instance if they
 Contingency:
 If my teammate cannot access your microservice:
 They should immediately contact me via Slack.
-My availability is 9:30 am to 6:00 pm (Monday through Friday).
+My availability is 9:30 am to 6:00 pm (Monday through Friday) EST.
 The deadline for notification is 05/27/2024, preferably within 48 hours.
 Additional Notes:
 Ensure all teammates have ZeroMQ installed in their Python environment (pip install pyzmq).
