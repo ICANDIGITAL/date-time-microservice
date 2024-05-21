@@ -43,14 +43,14 @@ loop Every 1 second
 Status: The microservice is fully functional.
 Access:
 The code for this microservice is available on GitHub: [https://github.com/ICANDIGITAL/](https://github.com/ICANDIGITAL/date-time-microservice/tree/master)
-Your teammate can either run it locally or you can provide a hosted instance if they prefer.
+Teammates can either run it locally or you can provide a hosted instance if they prefer.
 Contingency:
-If your teammate cannot access your microservice:
+If my teammate cannot access your microservice:
 They should immediately contact me via Slack.
 My availability is 9:30 am to 6:00 pm (Monday through Friday).
 The deadline for notification is 05/27/2024, preferably within 48 hours.
 Additional Notes:
-Ensure your teammate has ZeroMQ installed in their Python environment (pip install pyzmq).
+Ensure all teammates have ZeroMQ installed in their Python environment (pip install pyzmq).
 If you are hosting the service, please provide the IP address or hostname where it is running.
 Consider potential network issues or firewalls that might block communication and discuss solutions in advance.
 For robust error handling, all teammates should incorporate timeout mechanisms and retry logic in their subscriber code.
