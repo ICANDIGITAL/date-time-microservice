@@ -28,16 +28,9 @@ while True:
     print(f"Received: {timestamp}")
     
 * UML Sequence Diagram:
-participant Subscriber
-participant Microservice
 
-Subscriber -> Microservice: Connects (zmq.SUB) to tcp://[Your Microservice IP or Hostname]:5555
-Subscriber -> Microservice: Subscribes (zmq.SUBSCRIBE, "")
-loop Every 1 second
-    Microservice -> Subscriber: Sends timestamp (zmq.PUB)
-    Subscriber -> Subscriber: Processes timestamp
-  end
-  
+  <img width="411" alt="UML DIAGRAM" src="https://github.com/ICANDIGITAL/date-time-microservice/assets/32528337/941a14d6-5905-4f06-8536-ad3afe094547">
+
 * Mitigation Plan:
   
 Status: The microservice is fully functional.
